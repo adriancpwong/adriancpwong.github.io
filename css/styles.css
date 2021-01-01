@@ -4,6 +4,7 @@ html, body, .site-wrap {
   width:100%;
   padding:0;
   background-color: #333333;
+  scroll-behavior: smooth;
 }
 
 #nav-section {
@@ -47,8 +48,12 @@ html, body, .site-wrap {
   background-image: url("../assets/img/front.jpg");
   height: 100%;
   width: 100%;
+  background-color: black;
 }
 
 #about-section {
-  
+  display: block;
+  background-color: #DDDDDD;
+  height: 100%;
+  width: 100%;
 }
