@@ -1,0 +1,54 @@
+html, body, .site-wrap {
+  margin: 0;
+  height:100%;
+  width:100%;
+  padding:0;
+  background-color: #333333;
+}
+
+#nav-section {
+  position: fixed;
+  display: block;
+  overflow: hidden;
+  background-color: #333333;
+  width: 100%;
+  padding: 20px 0px;
+  transition: 0.5s;
+}
+
+#nav-section a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+#nav-section a:hover {
+  background-color: #ddd;
+  color: black;
+  transition: 0.5s;
+}
+
+.nav-left {
+  margin-left: 50px;
+}
+
+.nav-right {
+  margin-right: 50px;
+  float: right;
+}
+
+#front-section {
+  display: block;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../assets/img/front.jpg");
+  height: 100%;
+  width: 100%;
+}
+
+#about-section {
+  
+}
