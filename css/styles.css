@@ -46,14 +46,22 @@ html, body, .site-wrap {
 /* Front Section */
 
 #front-section {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-size: cover;
   background-position: center;
-  background-image: url("../assets/img/front.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
   height: 100%;
   width: 100%;
   background-color: black;
   text-align: center;
+  background-image: url("../assets/img/front.jpg");
+}
+
+.front-text-box{
+  background-color: blueviolet;
 }
 
 /* About Section */
