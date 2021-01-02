@@ -99,18 +99,63 @@ html, body, .site-wrap {
   padding: 50px 0px;
   display: block;
   background-color: #DDDDDD;
-  width: 100%;
+  width: 75%;
+  padding-left: 25%;
 }
 
 .work-row{
   max-width: 50%;
-  margin-left: 10%;
+  background-color: lightpink;
+  margin-bottom: 10px;
 }
 
 .work-title{
   display: inline-block;
+  background-color: lightseagreen;
 }
 
 .work-date{
   float: right;
+  background-color: lightskyblue;
+}
+
+.work-desc{
+  margin: 10px 0px;
+}
+
+#skill-section{
+  padding: 50px 0px;
+  display: block;
+  background-color: #555555;
+  text-align: center;
+  width: 100%;
+}
+
+#interest-section{
+  padding: 50px 0px;
+  display: block;
+  background-color: #DDDDDD;
+  text-align: center;
+  width: 100%;
+}
+
+.int-row{
+  vertical-align: middle;
+  background-color: blue;
+  margin: -2px 0px;
+}
+
+.int-column{
+  display: inline-block;
+  background-color: lime;
+  border-style: solid;
+  width: 20%;
+  padding: 50px 0px;
+  margin: 0px -4px;
+}
+
+.int-text-box{
+  background-color: blueviolet;
+  padding: 10px 0px;
+  margin: 0px;
 }
