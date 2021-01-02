@@ -49,11 +49,48 @@ html, body, .site-wrap {
   height: 100%;
   width: 100%;
   background-color: black;
+  text-align: center;
 }
 
 #about-section {
+  padding: 50px 0px;
   display: block;
   background-color: #DDDDDD;
-  height: 100%;
+  text-align: center;
   width: 100%;
+}
+
+.about-column {
+  display: inline-block;
+  width: 30%;
+  background-color: blue;
+  vertical-align:middle;
+}
+
+.about-picture {
+  width: 50%;
+}
+
+#project-section {
+  padding: 50px 0px;
+  display: block;
+  background-color: #555555;
+  text-align: center;
+  width: 100%;
+}
+
+.project-row{
+  width: 100%;
+}
+
+.project-column {
+  display: inline-block;
+  width: 20%;
+  background-color: red;
+  margin: 10px;
+  padding: 10px;
+}
+
+.project-text-box{
+  background-color: white;
 }
