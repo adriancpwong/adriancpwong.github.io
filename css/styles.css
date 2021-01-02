@@ -94,3 +94,23 @@ html, body, .site-wrap {
 .project-text-box{
   background-color: white;
 }
+
+#work-section{
+  padding: 50px 0px;
+  display: block;
+  background-color: #DDDDDD;
+  width: 100%;
+}
+
+.work-row{
+  max-width: 50%;
+  margin-left: 10%;
+}
+
+.work-title{
+  display: inline-block;
+}
+
+.work-date{
+  float: right;
+}
