@@ -46,3 +46,4 @@ document.getElementById("body").onscroll = function myFunction() {
         document.getElementById("nav-section").style.padding = "20px 0px";
     }
 }
+

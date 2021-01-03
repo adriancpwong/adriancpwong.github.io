@@ -64,6 +64,14 @@ html, body, .site-wrap {
   background-color: blueviolet;
 }
 
+.title{
+  display: block;
+}
+
+.typed-text{
+  font-size: 2rem;
+}
+
 /* About Section */
 
 #about-section {
@@ -304,6 +312,8 @@ html, body, .site-wrap {
   width: 100%;
 }
 
+/* Footer Section*/
+
 #footer-section{
   padding: 20px 0px;
   display: block;
@@ -311,3 +321,6 @@ html, body, .site-wrap {
   text-align: center;
   width: 100%;
 }
+
+/* Temp Section */
+

@@ -4,6 +4,7 @@
 <head>
 	<title>Adrian C. P. Wong</title>
 	<link rel="stylesheet" href="./css/styles.css">
+	<script src="./lib/typed.js/lib/typed.js" type="text/javascript"></script>
 </head>
 
 <body id="body">
@@ -32,7 +33,11 @@
 
 	<section id="front-section">
 		<div class="front-text-box">
-			ACPW
+
+			<span class="title">ACPW</span>
+			
+			<span class="typed-text"></span>
+
 		</div>
 	</section>
 
@@ -341,6 +346,17 @@
 
 </div>
 
+<script>
+	
+	var options = {
+	strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+	typeSpeed: 40,
+	loop: true,
+	};
+
+	var typed = new Typed('.typed-text', options);
+
+</script>
 <script src="./js/scripts.js"></script>
 
 </body>
