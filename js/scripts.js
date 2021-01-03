@@ -32,16 +32,17 @@ for (i = 0; i < coll.length; i++) {
 //Parallax function
 
 document.getElementById("body").onscroll = function myFunction() {  
+    
     var scrolltotop = document.scrollingElement.scrollTop;
     var target = document.getElementById("front-section");
     var xvalue = "center";
     var factor = 0.5;
-    var yvalue = scrolltotop * factor;
+    var yvalue = scrolltotop * factor - 200;
     target.style.backgroundPosition = xvalue + " " + yvalue + "px";
     
     //Combined scroll shrink code
     if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-        document.getElementById("nav-section").style.padding = "10px 0px";
+        document.getElementById("nav-section").style.padding = "0px 0px";
     } else {
         document.getElementById("nav-section").style.padding = "20px 0px";
     }

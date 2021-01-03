@@ -5,6 +5,7 @@ html, body, .site-wrap {
   padding:0;
   background-color: #333333;
   scroll-behavior: smooth;
+  font-family: 'Courier New';
 }
 
 /* Nav Section */
@@ -61,11 +62,21 @@ html, body, .site-wrap {
 }
 
 .front-text-box{
-  background-color: blueviolet;
+  background-color: rgba(0,0,0, 0.5);
+  width: 100%;
+  padding: 50px 0;
+  color: #EEEEEE;
 }
 
 .title{
   display: block;
+  font-size: 4rem;
+}
+
+.subtitle{
+  display: block;
+  font-size: 1rem;
+  margin-top: 20px;
 }
 
 .typed-wrapper{
@@ -329,4 +340,3 @@ html, body, .site-wrap {
 }
 
 /* Temp Section */
-
