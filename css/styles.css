@@ -64,13 +64,15 @@ html, body, .site-wrap {
 .front-text-box{
   background-color: rgba(0,0,0, 0.5);
   width: 100%;
-  padding: 50px 0;
+  padding-bottom: 50px;
   color: #EEEEEE;
 }
 
 .title{
   display: block;
-  font-size: 4rem;
+  font-weight: bolder;
+  font-size: 10rem;
+  font-family: 'Brush Script MT', cursive;
 }
 
 .subtitle{
@@ -99,15 +101,22 @@ html, body, .site-wrap {
   width: 100%;
 }
 
-.about-column {
+.about-column-one {
   display: inline-block;
-  width: 30%;
+  width: 40%;
+  background-color: blue;
+  vertical-align:middle;
+}
+
+.about-column-two {
+  display: inline-block;
+  width: 20%;
   background-color: blue;
   vertical-align:middle;
 }
 
 .about-picture {
-  width: 50%;
+  width: 100%;
   border-radius: 25%;
   border-style: solid;
 }
@@ -132,10 +141,28 @@ html, body, .site-wrap {
   background-color: red;
   margin: 10px;
   padding: 10px;
+  border-style: solid;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
 }
 
 .project-text-box{
-  background-color: white;
+  background-color:rgba(0,0,0, 0.5);
+  color: #EEEEEE;
+}
+
+.project-one{
+  background-image: url("../assets/img/projectone.jpg");
+}
+
+.project-two{
+  background-image: url("../assets/img/projecttwo.jpg");
+}
+
+.project-three{
+  background-image: url("../assets/img/projectthree.jpg");
 }
 
 /* Work Section */
