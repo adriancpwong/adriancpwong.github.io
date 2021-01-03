@@ -37,7 +37,7 @@ document.getElementById("body").onscroll = function myFunction() {
     var target = document.getElementById("front-section");
     var xvalue = "center";
     var factor = 0.5;
-    var yvalue = scrolltotop * factor - 200;
+    var yvalue = scrolltotop * factor - 250;
     target.style.backgroundPosition = xvalue + " " + yvalue + "px";
     
     //Combined scroll shrink code
