@@ -8,6 +8,14 @@ html, body, .site-wrap {
   font-family: 'Courier New';
 }
 
+/* Mobile */
+
+@media only screen and (max-width: 600px) {
+  .desktop{
+    display: none !important;
+  }
+}
+
 /* Nav Section */
 
 #nav-section {
@@ -55,7 +63,7 @@ html, body, .site-wrap {
   background-color: black;
   text-align: center;
   background-size: cover;
-  background-position: center -200px;
+  background-position: center -0px;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-image: url("../assets/img/front.jpg");
