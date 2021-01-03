@@ -224,8 +224,8 @@ html, body, .site-wrap {
 
 .work-row{
   width: 50%;
-  background-color: lightpink;
-  margin-bottom: 10px;
+  background-color: pink;
+  margin-bottom: 20px;  
 }
 
 .work-title{
@@ -236,6 +236,7 @@ html, body, .site-wrap {
 .work-date{
   float: right;
   background-color: lightskyblue;
+  text-align: right;
 }
 
 .work-desc{
