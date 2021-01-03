@@ -165,6 +165,38 @@ html, body, .site-wrap {
   background-image: url("../assets/img/projectthree.jpg");
 }
 
+.project-four{
+  background-image: url("../assets/img/projectfour.jpg");
+}
+
+.project-five{
+  background-image: url("../assets/img/projectfive.jpg");
+}
+
+.project-six{
+  background-image: url("../assets/img/projectsix.jpg");
+}
+
+.project-seven{
+  background-image: url("../assets/img/projectseven.jpg");
+}
+
+.project-eight{
+  background-image: url("../assets/img/projecteight.jpg");
+}
+
+.project-nine{
+  background-image: url("../assets/img/projectnine.jpg");
+}
+
+.project-ten{
+  background-image: url("../assets/img/projectten.jpg");
+}
+
+.project-eleven{
+  background-image: url("../assets/img/projecteleven.jpg");
+}
+
 /* Work Section */
 
 #work-section{
