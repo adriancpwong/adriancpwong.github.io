@@ -68,8 +68,14 @@ html, body, .site-wrap {
   display: block;
 }
 
+.typed-wrapper{
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
 .typed-text{
   font-size: 2rem;
+  font-weight: normal;
 }
 
 /* About Section */

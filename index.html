@@ -14,19 +14,19 @@
 	<section id="nav-section">
 
 		<div class="nav-left">
-			<a href="#front-section">ACPW</a>
-			<a href="#about-section">About</a>
-			<a href="#project-section">Projects</a>
-			<a href="#work-section">Work</a>
-			<a href="#education-section">Education</a>
-			<a href="#skill-section">Skills</a>
-			<a href="#interest-section">Interests</a>
-			<a href="#award-section">Awards</a>
-			<a href="#contact-section">Contact</a>
+			<a href="#front-section"><b>.acpw</b></a>
+			<a href="#about-section">.about</a>
+			<a href="#project-section">.projects</a>
+			<a href="#work-section">.work</a>
+			<a href="#education-section">.education</a>
+			<a href="#skill-section">.skills</a>
+			<a href="#interest-section">.interests</a>
+			<a href="#award-section">.awards</a>
+			<a href="#contact-section">.contact</a>
 		</div>
 		<div class="nav-right">
-			<a href="https://google.com">GitHub</a>
-			<a href="https://google.com">Instagram</a>
+			<a href="https://google.com">.git</a>
+			<a href="https://google.com">.insta</a>
 		</div>
 	
 	</section>
@@ -36,7 +36,9 @@
 
 			<span class="title">ACPW</span>
 			
-			<span class="typed-text"></span>
+			<div class="typed-wrapper">
+				<span class="typed-text"></span>
+			</div>
 
 		</div>
 	</section>
@@ -349,9 +351,13 @@
 <script>
 	
 	var options = {
-	strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
-	typeSpeed: 40,
+	strings: ['Developer', 'Consultant', 'Entrepreneur'],
+	typeSpeed: 100,
+	backSpeed: 50,
 	loop: true,
+	cursorChar: '_',
+	backDelay: 1500,
+	startDelay: 500
 	};
 
 	var typed = new Typed('.typed-text', options);
