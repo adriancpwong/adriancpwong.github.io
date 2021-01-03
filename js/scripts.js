@@ -29,6 +29,23 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 
+//Collapsable work code
+
+var coll = document.getElementsByClassName("work-collapsible");
+var j;
+
+for (j = 0; j < coll.length; j++) {
+  coll[j].addEventListener("click", function() {
+    this.classList.toggle("work-active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+
 //Parallax function
 
 document.getElementById("body").onscroll = function myFunction() {  

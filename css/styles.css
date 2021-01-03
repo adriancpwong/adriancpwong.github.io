@@ -8,6 +8,13 @@ html, body, .site-wrap {
   font-family: 'Courier New';
 }
 
+input, textarea, button {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+}
+
 /* Mobile */
 
 @media only screen and (max-width: 1080px) {
@@ -223,7 +230,7 @@ html, body, .site-wrap {
 }
 
 .work-row{
-  width: 50%;
+  width: 60%;
   background-color: pink;
   margin-bottom: 20px;  
 }
@@ -243,6 +250,28 @@ html, body, .site-wrap {
   margin: 10px 0px;
 }
 
+.work-collapsible {
+  cursor: pointer;
+  padding: 0px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  margin-top: 0px;
+}
+
+.work-active, .work-collapsible:hover {
+  background-color: #555;
+}
+
+.work-content {
+  padding: 0px;
+  max-height: 0px;
+  width: 100%;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
 /* Education Section */
 
 #education-section{
@@ -256,9 +285,9 @@ html, body, .site-wrap {
 }
 
 .edu-row{
-  width: 50%;
+  width: 60%;
   background-color: lightpink;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   float: right;
   display: block;
   clear: both;
@@ -269,11 +298,13 @@ html, body, .site-wrap {
   background-color: lightseagreen;
   float: left;
   clear: both;
+  text-align: left;
 }
 
 .edu-date{
   float: right;
   background-color: lightskyblue;
+  text-align: right;
 }
 
 .edu-desc{
@@ -281,6 +312,7 @@ html, body, .site-wrap {
   background-color: blueviolet;
   float: left;
   clear: both;
+  text-align: left;
   margin-top: 10px;
 }
 
