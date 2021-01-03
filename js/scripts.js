@@ -43,8 +43,10 @@ document.getElementById("body").onscroll = function myFunction() {
     //Combined scroll shrink code
     if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
         document.getElementById("nav-section").style.padding = "0px 0px";
+        document.getElementById("nav-section").style.opacity = "0.75";
     } else {
         document.getElementById("nav-section").style.padding = "20px 0px";
+        document.getElementById("nav-section").style.opacity = "1";
     }
 }
 
