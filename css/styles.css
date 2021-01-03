@@ -208,6 +208,10 @@ html, body, .site-wrap {
   background-image: url("../assets/img/projecteleven.jpg");
 }
 
+.project-twelve{
+  background-image: url("../assets/img/front.jpg");
+}
+
 /* Work Section */
 
 #work-section{
