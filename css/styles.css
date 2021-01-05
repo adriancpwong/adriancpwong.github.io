@@ -171,7 +171,7 @@ section{
   padding: 10px;
   align-items: center;
   justify-content: center;
-  border: 2px solid;
+  border-style: solid;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
