@@ -166,20 +166,29 @@ section{
 .project-column {
   display: inline-flex;
   width: 20%;
-  background-color: red;
+  background-color: white;
   margin: 15px 10px;
   padding: 10px;
   align-items: center;
   justify-content: center;
-  border-style: solid;
+  border: 2px solid;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
 }
 
+.project-column-link{
+  cursor: pointer;
+}
+
+.project-column-link:hover{
+  filter: contrast(150%);
+  filter: brightness(150%);
+}
+
 .project-text-box{
-  background-color:rgba(0,0,0, 0.5);
+  background-color:rgba(0,0,0, 0.65);
   color: #EEEEEE;
   min-height: 170px;
 }
@@ -390,13 +399,13 @@ section{
 
 .int-row{
   vertical-align: middle;
-  background-color: blue;
+  background-color: transparent;
   margin: -2px 0px;
 }
 
 .int-column{
   display: inline-block;
-  background-color: lime;
+  background-color: white;
   border-style: solid;
   width: 20%;
   padding: 50px 0px;
@@ -407,11 +416,44 @@ section{
   background-attachment: scroll;
 }
 
+.int-one{
+  background-image: url("../assets/img/intone.png");
+}
+
+.int-two{
+  background-image: url("../assets/img/inttwo.jpg");
+}
+
+.int-three{
+  background-image: url("../assets/img/intthree.jpg");
+}
+
+.int-four{
+  background-image: url("../assets/img/intfour.jpg");
+}
+
+.int-five{
+  background-image: url("../assets/img/intfive.jpg");
+}
+
+.int-six{
+  background-image: url("../assets/img/intsix.png");
+}
+
+.int-seven{
+  background-image: url("../assets/img/intseven.jpg");
+}
+
+.int-eight{
+  background-image: url("../assets/img/inteight.jpg");
+}
+
 .int-text-box{
-  background-color:rgba(0,0,0, 0.5);
+  background-color:rgba(0,0,0, 0.65);
   color: #EEEEEE;
   padding: 10px 0px;
   margin: 0px;
+  font-weight: bold;
 }
 
 /* Awards Section */
@@ -426,22 +468,42 @@ section{
 
 .award-row{
   width: 65%;
-  background-color: green;
+  background-color: white;
   display: inline-block;
-  padding: 20px 0px;
+  padding: 0px 0px;
   border-style: solid;
   margin-top: 20px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-image: url("../assets/img/front.jpg");
+}
+
+.award-one{
+  background-image: url("../assets/img/awardone.jpg");
+}
+
+.award-two{
+  background-image: url("../assets/img/awardtwo.jpg");
+}
+
+.award-three{
+  background-image: url("../assets/img/awardthree.jpg");
+}
+
+.award-four{
+  background-image: url("../assets/img/awardfour.jpg");
+}
+
+.award-five{
+  background-image: url("../assets/img/awardfive.jpg");
 }
 
 .award-text-box{
-  width: 50%;
+  color: #EEEEEE;
+  width: 65%;
   padding: 10px 0px;
-  background-color: cadetblue;
+  background-color: rgba(0,0,0, 0.65);
   display: inline-block;
 }
 
