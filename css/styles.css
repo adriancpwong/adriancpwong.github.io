@@ -483,6 +483,7 @@ section{
   padding: 0px 0px;
   border-style: solid;
   margin-top: 20px;
+  border-radius: 25px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -535,7 +536,7 @@ section{
   display: block;
   background-color: #1A1A1A;
   text-align: center;
-  color: #EEEEEE;
+  color: #AAAAAA;
   width: 100%;
 }
 
