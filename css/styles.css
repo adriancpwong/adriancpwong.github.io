@@ -29,7 +29,7 @@ section{
 
 /* Nav Section */
 
-#nav-section {
+#nav {
   position: fixed;
   display: block;
   overflow: hidden;
@@ -39,7 +39,7 @@ section{
   transition: 0.5s;
 }
 
-#nav-section a {
+#nav a {
   float: left;
   display: block;
   color: #EEEEEE;
@@ -48,7 +48,7 @@ section{
   text-decoration: none;
 }
 
-#nav-section a:hover {
+#nav a:hover {
   background-color: #CCCCCC;
   color: #333333;
   transition: 0.5s;
@@ -66,7 +66,7 @@ section{
 
 /* Front Section */
 
-#front-section {
+#front {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -113,7 +113,7 @@ section{
 
 /* About Section */
 
-#about-section {
+#about {
   padding: 50px 0px;
   display: block;
   background-color: #2A2A2A;
@@ -146,7 +146,7 @@ section{
 
 /* Project Section */
 
-#project-section {
+#project {
   padding: 50px 0px;
   display: block;
   background-color: #222222;
@@ -248,7 +248,7 @@ section{
 
 /* Work Section */
 
-#work-section{
+#work{
   padding: 50px 0px;
   display: block;
   background-color: #2A2A2A;
@@ -304,7 +304,7 @@ section{
 
 /* Education Section */
 
-#education-section{
+#education{
   padding: 50px 0px;
   display: block;
   background-color: #333333;
@@ -349,7 +349,7 @@ section{
 
 /* Skills Section */
 
-#skill-section{
+#skill{
   padding: 50px 0px;
   display: block;
   background-color: #222222;
@@ -399,7 +399,7 @@ section{
 
 /* Interests Section */
 
-#interest-section{
+#interest{
   padding: 50px 0px;
   display: block;
   background-color: #2A2A2A;
@@ -468,7 +468,7 @@ section{
 
 /* Awards Section */
 
-#award-section{
+#award{
   padding: 50px 0px;
   display: block;
   background-color: #222222;
@@ -520,7 +520,7 @@ section{
 
 /* Contact Section */
 
-#contact-section{
+#contact{
   padding: 50px 0px;
   display: block;
   background-color: #2A2A2A;
@@ -531,7 +531,7 @@ section{
 
 /* Footer Section*/
 
-#footer-section{
+#footer{
   padding: 20px 0px;
   display: block;
   background-color: #1A1A1A;
